@@ -28,6 +28,12 @@ export function Navbar() {
           {status === "loading" ? null : session ? (
             <nav className="flex items-center gap-2 text-sm">
               <Link
+                href="/smartphones"
+                className="rounded-md px-2 py-1 text-xs font-medium text-foreground/80 hover:bg-foreground/5 sm:text-sm"
+              >
+                Smartphones
+              </Link>
+              <Link
                 href="/dashboard"
                 className="rounded-md px-2 py-1 text-xs font-medium text-foreground/80 hover:bg-foreground/5 sm:text-sm"
               >
@@ -48,6 +54,12 @@ export function Navbar() {
             </nav>
           ) : !isAuthPage ? (
             <nav className="flex items-center gap-2 text-sm">
+              <Link
+                href="/smartphones"
+                className="rounded-md px-2 py-1 text-xs font-medium text-foreground/80 hover:bg-foreground/5 sm:text-sm"
+              >
+                Smartphones
+              </Link>
               <Link
                 href="/login"
                 className="rounded-full border border-foreground/10 px-3 py-1 text-xs font-medium text-foreground/80 transition hover:bg-foreground hover:text-background sm:text-sm"

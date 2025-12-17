@@ -1,0 +1,68 @@
+import { Product } from "@/types/product";
+
+export const mockProducts: Product[] = [
+  {
+    id: "1",
+    name: "Samsung Galaxy S21",
+    price: 54999,
+    rating: 4.2,
+    image: "https://placehold.co/300x400?text=Samsung+S21",
+    brand: "Samsung",
+  },
+  {
+    id: "2",
+    name: "iPhone 13",
+    price: 61999,
+    rating: 4.7,
+    image: "https://placehold.co/300x400?text=iPhone+13",
+    brand: "Apple",
+  },
+  {
+    id: "3",
+    name: "Redmi Note 12 Pro",
+    price: 24999,
+    rating: 4.3,
+    image: "https://placehold.co/300x400?text=Redmi+Note+12",
+    brand: "Xiaomi",
+  },
+  {
+    id: "4",
+    name: "Realme GT Neo 3",
+    price: 32499,
+    rating: 4.4,
+    image: "https://placehold.co/300x400?text=Realme+GT",
+    brand: "Realme",
+  },
+  {
+    id: "5",
+    name: "OnePlus 9RT",
+    price: 42999,
+    rating: 4.5,
+    image: "https://placehold.co/300x400?text=OnePlus+9RT",
+    brand: "OnePlus",
+  },
+  {
+    id: "6",
+    name: "Google Pixel 6a",
+    price: 43999,
+    rating: 4.6,
+    image: "https://placehold.co/300x400?text=Pixel+6a",
+    brand: "Google",
+  },
+  {
+    id: "7",
+    name: "Samsung Galaxy M53",
+    price: 26499,
+    rating: 4.0,
+    image: "https://placehold.co/300x400?text=Samsung+M53",
+    brand: "Samsung",
+  },
+  {
+    id: "8",
+    name: "iPhone 12",
+    price: 52999,
+    rating: 4.6,
+    image: "https://placehold.co/300x400?text=iPhone+12",
+    brand: "Apple",
+  },
+];
