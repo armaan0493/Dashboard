@@ -1,0 +1,30 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827" stop-opacity="0.08" />
+      <stop offset="1" stop-color="#1A73E8" stop-opacity="0.18" />
+    </linearGradient>
+    <linearGradient id="body" x1="360" y1="140" x2="840" y2="1060" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="1" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1200" rx="96" fill="url(#bg)" />
+
+  <rect x="360" y="140" width="480" height="920" rx="78" fill="url(#body)" stroke="rgba(148,163,184,0.25)" stroke-width="6" />
+
+  <rect x="410" y="210" width="170" height="290" rx="40" fill="rgba(248,180,0,0.12)" stroke="rgba(248,180,0,0.35)" stroke-width="4" />
+  <circle cx="475" cy="280" r="32" fill="rgba(248,180,0,0.35)" />
+  <circle cx="475" cy="280" r="14" fill="rgba(15,23,42,0.85)" />
+
+  <circle cx="475" cy="370" r="32" fill="rgba(26,115,232,0.35)" />
+  <circle cx="475" cy="370" r="14" fill="rgba(15,23,42,0.85)" />
+
+  <circle cx="475" cy="460" r="32" fill="rgba(148,163,184,0.3)" />
+  <circle cx="475" cy="460" r="14" fill="rgba(15,23,42,0.85)" />
+
+  <text x="600" y="1035" text-anchor="middle" fill="rgba(148,163,184,0.5)" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    Samsung
+  </text>
+</svg>
